@@ -132,7 +132,7 @@ public class Enemy : MonoBehaviour
             Vector3 desiredMovement = CalculateDesiredMovement();
             Quaternion desiredRotation = CalculateDesiredRotation();
 
-            enemyRigidbody.velocity = Vector3.zero;
+            enemyRigidbody.linearVelocity = Vector3.zero;
             enemyRigidbody.angularVelocity = Vector3.zero;
             
             enemyRigidbody.MovePosition(desiredMovement);
@@ -150,7 +150,7 @@ public class Enemy : MonoBehaviour
         {
             if (enemyRigidbody != null)
             {
-                enemyRigidbody.velocity = Vector3.zero;
+                enemyRigidbody.linearVelocity = Vector3.zero;
                 enemyRigidbody.angularVelocity = Vector3.zero;
             }
 
