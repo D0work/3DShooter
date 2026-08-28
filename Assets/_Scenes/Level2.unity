@@ -5553,6 +5553,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6565451226714932715, guid: 4f979e67e5f8f2646a786889f86fef12,
+        type: 3}
+      propertyPath: lookSpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6565451226714932715, guid: 4f979e67e5f8f2646a786889f86fef12,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6963065593982129079, guid: 4f979e67e5f8f2646a786889f86fef12,
         type: 3}
       propertyPath: m_Layer
